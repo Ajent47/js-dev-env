@@ -4,6 +4,7 @@
   "description": "Javascript development environment",
   "main": "index.js",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Ajent47/js-dev-env#readme",
   "devDependencies": {
+    "chalk": "^2.1.0",
     "express": "^4.15.4",
     "localtunnel": "^1.8.3",
     "nsp": "^2.7.0",
