@@ -1,0 +1,19 @@
+{
+  "name": "js-dev-env",
+  "version": "1.0.0",
+  "description": "Javascript development environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajent47/js-dev-env.git"
+  },
+  "author": "Ajent47",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajent47/js-dev-env/issues"
+  },
+  "homepage": "https://github.com/Ajent47/js-dev-env#readme"
+}
