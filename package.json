@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Ajent47/js-dev-env#readme",
   "devDependencies": {
-    "nsp": "^2.7.0"
+    "express": "^4.15.4",
+    "nsp": "^2.7.0",
+    "open": "0.0.5",
+    "path": "^0.12.7"
   }
 }
