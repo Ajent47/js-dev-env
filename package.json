@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ajent47/js-dev-env/issues"
   },
-  "homepage": "https://github.com/Ajent47/js-dev-env#readme"
+  "homepage": "https://github.com/Ajent47/js-dev-env#readme",
+  "devDependencies": {
+    "nsp": "^2.7.0"
+  }
 }
