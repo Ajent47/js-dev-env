@@ -4,12 +4,12 @@
   "description": "Javascript development environment",
   "main": "index.js",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check open:src",
-    "open:src": "node buildScripts/srcServer.js",
+    "open:src": "babel-node buildScripts/srcServer.js",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
-    "share" : "npm-run-all --parallel open:src localtunnel",
+    "share": "npm-run-all --parallel open:src localtunnel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/Ajent47/js-dev-env#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
     "chalk": "^2.1.0",
     "express": "^4.15.4",
     "localtunnel": "^1.8.3",

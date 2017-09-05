@@ -1,9 +1,9 @@
-var express = require('express'); // webserver (web framework)
-var path = require('path');  // provides utilities for working with file and directory paths
-var open = require('open');  // Open a file or url in the user's preferred application
+import express from 'express'; // webserver (web framework)
+import path from 'path';  // provides utilities for working with file and directory paths
+import open from 'open';  // Open a file or url in the user's preferred application
 
-var port = 3000;
-var app = express();
+const port = 3000;
+const app = express();
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
