@@ -5,6 +5,7 @@ import open from 'open';  // Open a file or url in the user's preferred applicat
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
+/* eslint-disable no-console*/
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
