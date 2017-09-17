@@ -5,7 +5,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 export default {
   devtool: 'source-map',
   entry: [
-    path.resolve(__dirname, 'dist/index')
+    path.resolve(__dirname, 'src/index')
   ],
   target: 'web',
   output: {
