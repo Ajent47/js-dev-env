@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 98208723,
+      "firstName": "Adell",
+      "lastName": "Spinka",
+      "email": "Eldred49@hotmail.com"
+    },
+    {
+      "id": 38404731,
+      "firstName": "Dariana",
+      "lastName": "Keebler",
+      "email": "Zackery.Steuber6@hotmail.com"
+    },
+    {
+      "id": 79874500,
+      "firstName": "Brooklyn",
+      "lastName": "Steuber",
+      "email": "Domenico92@gmail.com"
+    },
+    {
+      "id": 57362396,
+      "firstName": "Agnes",
+      "lastName": "Bechtelar",
+      "email": "Madge_Brakus@yahoo.com"
+    }
+  ]
+}
